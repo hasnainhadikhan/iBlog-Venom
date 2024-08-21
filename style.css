@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+#topbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topone {
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(228, 93, 15);
+  border: 2px solid rgb(228, 93, 15);
+  padding: 0.4%;
+  border-radius: 7px;
+}
+
+.topone:hover {
+  color: white;
+  background-color: rgb(228, 93, 15);
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 430px;
+  height: 590px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+  border-radius: 10px;
+}
+
+.signup-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 430px;
+  height: 550px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  font-family: "Mochiy Pop One", sans-serif;
+  color: #8a0909;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.user-box {
+  position: relative;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 4px solid #fff;
+  outline: none;
+  background-color: transparent;
+  /* pointer-events: fill; */
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #000000;
+  pointer-events: none;
+  transition: .5s;
+  gap: 10%;
+  pointer-events: none;
+}
+
+.user-box input:focus~label,
+.user-box input:valid~label {
+  top: -20px;
+  left: 0;
+  color: #000000;
+  font-size: 20px;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  position: relative;
+  top: -1px;
+  width: 200px;
+  height: 45px;
+  font-size: 22px;
+  color: #8a0909;
+  font-family: "Mochiy Pop One", sans-serif;
+  border-radius: 8px;
+  border: 4px solid black;
+}
+
+.btn1:hover {
+  background-color: transparent;
+}
+
+.btn2 {
+  position: relative;
+  top: -1px;
+  width: 200px;
+  height: 45px;
+  font-size: 22px;
+  color: #8a0909;
+  font-family: "Mochiy Pop One", sans-serif;
+  border-radius: 8px;
+  border: 4px solid black;
+}
+
+.btn2:hover {
+  background-color: transparent;
+}
+
+p {
+  margin-top: 10%;
+  font-size: 14px;
+  margin-left: 8%;
+}
+
+p.text {
+  font-size: 18px;
+  position: absolute;
+  top: 10%;
+}
